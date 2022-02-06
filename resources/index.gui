@@ -1,0 +1,20 @@
+<svg viewport-fill="black">
+  <section x="10" y="10" width="100%-20" height="100%-20">
+    <text id="battery-value" class="text text-left" x="0" y="18" text-length="4"></text>
+    <text id="battery-label" class="text text-label text-left" x="0" y="46" text-length="8">BATTERY</text>
+
+    <text id="date-value" class="text text-right" x="100%" y="18" text-length="12">--/--/----</text>
+    <text id="date-label" class="text text-label text-right" x="100%" y="46" text-length="4">DATE</text>
+
+    <text id="clock-value1" class="text text-clock text-right" x="50%" y="50%+36" text-length="4">--:-</text>
+    <text id="clock-value2" class="text text-clock text-left" x="50%" y="50%+36" text-length="4">-:--</text>
+
+    <text id="steps-value" class="text text-left" x="0" y="100%-30" text-length="8">--</text>
+    <text id="steps-label" class="text text-label text-left" x="0" y="100%" text-length="8">STEPS</text>
+    <image id="steps-icon" x="90" y="100%-25" width="24" height="24" href="stat_steps_solid_24px.png" />
+
+    <text id="bpm-value" class="text text-right" x="100%" y="100%-30" text-length="4">--</text>
+    <text id="bpm-label" class="text text-label text-right" x="100%" y="100%" text-length="4">BPM</text>
+    <image id="bpm-icon" x="100%-90" y="100%-23" width="24" height="24" href="stat_hr_solid_24px.png" />
+  </section>
+</svg>

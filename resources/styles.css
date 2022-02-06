@@ -1,0 +1,30 @@
+.text {
+  fill: #a5a2a5;
+  font-family: Fabrikat-Black;
+  font-size: 32;
+}
+
+.text-clock {
+  fill: fb-mint;
+  font-size: 90;
+}
+
+.text-label {
+  fill: #4a4d4a;
+}
+
+.text-right {
+  text-anchor: end;
+}
+
+.text-left {
+  text-anchor: start;
+}
+
+#bpm-icon {
+  fill: fb-red;
+}
+
+#steps-icon {
+  fill: fb-cyan;
+}
