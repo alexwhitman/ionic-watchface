@@ -31,6 +31,8 @@ class ClockFace {
 
 		clock.granularity = 'seconds';
 		clock.addEventListener('tick', (evt) => {
+			evt.date.setMinutes(evt.date.getMinutes() - evt.date.getTimezoneOffset());
+
 			this.updateClock(evt.date);
 			this.updateDate(evt.date);
 
@@ -92,7 +94,7 @@ class ClockFace {
 	}
 
 	updateDate(date) {
-		let [year, month, day] = date.toISOString().split('T')[0].split('-')
+		let [year, month, day] = date.toDateString().split('-');
 		this.dateValue.text = day + '/' + month + '/' + year;
 	}
 
